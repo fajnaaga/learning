@@ -1,0 +1,31 @@
+h1 {
+color: blue;
+font-family: verdana;
+font-size: 300%;
+}
+p  {
+color: red;
+font-family: courier;
+font-size: 160%;
+}
+table {
+    color:  black;
+    border: 2px solid green;
+}
+
+.font-color-green {
+    color:red;
+    font-size:32px;
+}
+
+td.font-color-green {
+    background-color: green;
+    font-size:32px;
+
+}
+
+.font-color-red {
+    width:700px; 
+    height: 500px;
+    background-color:plum;
+}

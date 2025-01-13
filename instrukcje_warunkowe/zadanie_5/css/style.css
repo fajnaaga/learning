@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(90deg, rgba(89, 131, 252, 1) 0%, rgba(41, 53, 86, 1) 100%);
+}
+.form-wrapper {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    font-size: 24px;
+    margin-top: 5%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.32);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.back-button {
+    background-color: aliceblue;
+    padding: 12px;
+    text-decoration: none;
+    margin: 12px;
+    color: black;
+    width: fit-content;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.32);
+}

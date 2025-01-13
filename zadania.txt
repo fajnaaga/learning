@@ -1,0 +1,145 @@
+instrukcje warunkowe
+
+1. Napisz program informujący czy liczba parzysta czy nieparzysta.
+2. Sprawdza czy pierwsza jest podzielna przez drugą.
+
+3. Napisz program sprawdzający czy liczba jest z przedziału <1,10> lub <17,21>
+
+4. Napisz program informujący czy liczba jest większa, mniejsza czy równa zero.
+
+Wykorzystaj tylko jedną, podstawową instrukcję warunkową.
+
+5. Sprawdzający wiek.
+Mniej niż 11: dziecko;
+Między 11 i 17: nastolatek;
+18 i więcej: dorosły;
+
+6. Sprawdzający siłę hasła.
+Mniej niż 5: bardzo słabe;
+Między 5 i 8: słabe;
+Między 9 i 11: silne;
+Ponad 11: bardzo silne;
+7.Ilość dni w lutym.
+
+ Program zwraca ilość dni w lutym w zależności od roku przestępnego.
+Lata przestępne liczymy od momentu reformy kalendarza w roku 1582.
+Rokiem przestępnym jest ten, który jest podzielny przez 4.
+Wyjątek stanowią lata podzielne przez 100 z wyjątkiem podzielnych przez 400.
+Np.: rok 1900 nie był przestępny, ale 1600 lub 2000 już tak.
+
+8.Napisz program wyznaczający najmniejszą z trzech liczb podanych przez użytkownika.
+
+9. Napisz program, który odpowiada na pytanie, czy wśród trzech liczb są choć dwie takie same.
+pętle i instrukcje warunkowe
+
+
+
+1.Za pomocą pętli for stwórz tabelę w HTML składająca się z 2 wierszy i 10 kolumn.
+
+2. Za pomocą pętli for wypisz na ekranie dowolne znaki, tak aby układały się w 2 wiersze po 10 znaków.
+
+3. Za pomocą pętli for, while i do… while napisz skrypt, który będzie zwiększał zmienną $i od 1 do 100 o 2,
+a następnie zmniejszał ją do 1 o 4.
+
+4.Napisz skrypt, który dla zmiennej $n=10 i $n>0 będzie ją zmniejszał o 1 i wypisywał:
+ wartości kwadratów zmiennej $n; następnie wartości kwadratów zmiennej $n dla $n parzystych.
+
+5.Za pomocą pętli for, while i do… while napisz skrypt, który wypisze ilość iteracji pętli dla zmiennej $i<=10.
+Tam gdzie to możliwe zastosuj $i++, ++$i, $i--, --$i.
+
+6. Z przedziału <0..1000> wyświetl liczby podzielne przez 3 i 7.
+7. Wyświetl liczby z przedziału <0..100> bez podzielnych przez 3.
+8. Wprowadzamy dowolną liczbę całkowitą.
+Zadaniem jest wyświetlenie kolejnych 20-tu liczb podzielnych przez 3.
+Uwaga:
+Jeśli wprowadzona liczba nie jest podzielna przez 3 należy wyznaczyć kolejną, najbliższą liczbę podzielną przez 3.
+Wykonaj to zadanie dla dowolnego dzielnika n.
+
+9. Wprowadzamy dowolną liczbę całkowitą.
+Zadaniem jest wyświetlenie kolejnych 20-tu liczb podzielnych przez n.
+Uwaga:
+Jeśli wprowadzona liczba nie jest podzielna przez n należy wyznaczyć kolejną, 
+najbliższą liczbę podzielną przez n.
+
+10. Napisz skrypt, który sprawdzi, czy podana liczba jest liczbą pierwszą.
+11. Za pomocą pętli for stwórz tabliczkę mnożenia wg przykładu:
+0	1	2	3	4	5	6	7	8	9	10
+1	1	2	3	4	5	6	7	8	9	10
+2	2	4	6	8	10	12	14	16	18	20
+3	3	6	9	12	15	18	21	24	27	30
+4	4	8	12	16	20	24	28	32	36	40
+5	5	10	15	20	25	30	35	40	45	50
+6	6	12	18	24	30	36	42	48	54	60
+7	7	14	21	28	35	42	49	56	63	70
+8	8	16	24	32	40	48	56	64	72	80
+9	9	18	27	36	45	54	63	72	81	90
+10	10	20	30	40	50	60	70	80	90	100
+12. Napisz skrypt, który za pomocą znaków * (gwiazdki) narysuje kwadrat.
+13. Napisz skrypt, który za pomocą znaków * (gwiazdki) narysuje kwadrat - wnętrze kwadratu to kropki.
+14. Napisz skrypt sumujący wszystkie liczby nieparzyste z przedziału od 0 do 10. Użyj instrukcji continue.
+15. Napisz skrypt wyświetlający: “1-2-3-5-6-7-8-9”. Użyj dowolnej pętli i instrukcji przerywającej (wykluczono wartość 4).
+16. Napisz skrypt wyświetlający szachownicę.
+XOXOXOXO
+OXOXOXOX
+XOXOXOXO
+OXOXOXOX
+XOXOXOXO
+OXOXOXOX
+XOXOXOXO
+OXOXOXOX
+
+
+
+tablice
+Przykładowa tablica:
+$tablica = array(7, 3, 1, 6, 9, 5, 4, 10, 3, 2, 4, 3, 6, 12, 15, 4);
+
+1. Wyświetl elementy tablicy w pętli for oraz foreach
+2. Wyznacz minimalny i maksymalny element tablicy.
+
+3. Oblicz średnią arytmetyczną elementów tablicy.
+
+4. Oblicz ilość "trójek" w tablicy.
+
+5. Podaj ilość liczb parzystych i nieparzystych w tablicy.
+
+6. licz sumę liczb parzystych i nieparzystych w tablicy.
+
+
+
+funkcje
+1. function suma(a, b) {...}
+Oblicza i zwraca sumę 2 liczb.
+
+2. function suma_liczb(n) {...}
+Funkcja oblicza sumę liczb od 1 do podanej wartości liczby n.
+
+3. function silnia(n) {...}
+Funkcja oblicza silnię liczby n.
+Silna to iloczyn kolejnych liczb od 1 do n.
+
+4. function trojkat(a, b, c) {...}
+Sprawdza, czy z odcinków o podanej długości można utworzyć trójkąt.
+W wyniku zwraca true lub false.
+
+5. function gra(gracz1, gracz2) {...}
+Funkcja jest wersją gry kamień, papier, nożyce.
+Jako argumenty wpisujemy: "kamien" lub "nozyce" lub "papier" (nie stosujemy polskich znaków)
+Funkcja zwraca wynik: gracz 1, gracz 2, remis.
+Zakładamy wprowadzenie jedynie poprawnych argumentów.
+
+6. function bmi(masa, wzrost) {...}
+BMI = masa / wzrost2 - wskaźnik masy ciała.
+Masę podajemy w kilogramach, wzrost w metrach np. 1.88
+Funkcja wykonuje obliczenia i zwraca komunikat podany w kolumnie kategoria
+
+Kategoria	BMI (kg/m²)	Waga ciała
+wygłodzenie	< 16,0	niedowaga
+wychudzenie	16,0–16,99
+niedowaga	17,0–18,49
+pożądana masa ciała	18,5–24,99	optimum
+nadwaga	25,0–29,99	nadwaga
+otyłość I stopnia	30,0–34,99	otyłość
+otyłość II stopnia (duża)	35,0–39,99
+otyłość III stopnia (chorobliwa)	≥ 40,0
+Projekt i wykonanie: Ryszard Rogacz© 1999−2024
