@@ -260,13 +260,13 @@ function dodaj_zmienne($zmienna_1, $zmienna_2) {
     dodaj_zmienne($blabla, $asd);
 
 // 5. Metody POST i GET https://www.w3schools.com/tags/ref_httpmethods.asp
-5.1 GET:
-- tworzy tablice $_GET
-- dane są widoczne w adresie URL
-- limit do 2 tysięcy znaków
+// 5.1 GET:
+// - tworzy tablice $_GET
+// - dane są widoczne w adresie URL
+// - limit do 2 tysięcy znaków
 
-5.2 POST:
-- tworzy tablice $_POST
-- dane są przesyłane protokołem http POST nie są widoczne
+// 5.2 POST:
+// - tworzy tablice $_POST
+// - dane są przesyłane protokołem http POST nie są widoczne
 
     
