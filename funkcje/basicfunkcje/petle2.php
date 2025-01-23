@@ -8,6 +8,11 @@
 // showNumbersToZero(-5); // -5, -4, -3, -2, -1, 0
 
 function showNumbersToZero ($start) { 
+    if (!is_numeric($start)) {
+        echo "Error: start is not a number";
+        return;
+    }
+    
     if ($start >=0 ) {
         for ($index = $start; $index >= 0; $index--) 
         { 
@@ -23,3 +28,5 @@ function showNumbersToZero ($start) {
 showNumbersToZero(7) ;
 showNumbersToZero(0) ;
 showNumbersToZero(-7) ;
+showNumbersToZero("test");
+// https://www.w3schools.com/php/func_var_is_numeric.asp
